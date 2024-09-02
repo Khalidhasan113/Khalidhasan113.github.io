@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <style>
+        /* Import Font Awesome for icons */
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+        /* Basic styling for centering the body */
+        body {
+            margin: 30;
+            padding: 30;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Description Box Styling */
+        .description-box {
+            width: 90%;
+            max-width: 500px;
+            padding: 20px;
+            border: 2px solid #000; /* Black border */
+            border-radius: 15px;
+            background-color: #fff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Slightly softer shadow */
+            text-align: center;
+        }
+
+        .description-box h2 {
+            margin-top: 0;
+            color: #000; /* Black color */
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .description-box p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Contact Info and Button Styles */
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 45px; /* Reduced size */
+            height: 45px;
+            font-size: 22px;
+            border-radius: 50%; /* Circular shape */
+            background-color: #e0e0e0;
+            margin: 0 8px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            background-color: #d4d4d4;
+            transform: translateY(-5px);
+        }
+
+        .contact-info a:active {
+            background-color: #c4c4c4;
+            transform: translateY(2px);
+        }
+
+        /* Specific icon styles for Facebook and Instagram */
+        .contact-info .facebook i,
+        .contact-info .instagram i {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Description Box -->
+    <div class="description-box">
+        <h2>Individual Insights Overview</h2>
+        <p>Hello! I’m Khalid Hasan Nirob<br>A passionate gamer and web developer. I enjoy creating and exploring new technologies, especially in the realm of gaming and interactive web design.<br>When I'm not coding, you might find me playing the latest games, experimenting with new tech gadgets, or sharing my experiences with others.<br>Feel free to explore my website and get in touch if you have any questions or just want to chat about gaming!</p>
+
+        <div class="contact-info">
+            <a href="https://wa.me/+8801674194816" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://youtube.com/@gamingkhalid3081?feature=shared" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="instagram" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
